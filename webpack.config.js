@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: process.env.NODE_ENV,
-  entry: path.resolve(__dirname, './client/src/index.ts'),
+  entry: path.resolve(__dirname, './client/src/index.tsx'),
   devtool: 'inline-source-map',
   output: {
     filename: 'bundle.js',
