@@ -13,7 +13,7 @@ app.use(express.static('client'));
 app.use('/build', express.static(path.resolve(__dirname, '../build')));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/src/index.html'));
+  res.sendFile(path.join(__dirname, '../client/srcindex.html'));
 });
 
 app.listen(PORT, () => { 
