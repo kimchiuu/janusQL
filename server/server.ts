@@ -1,5 +1,5 @@
-import express from 'express';
-import path from 'path';
+import express from "express";
+import path from "path";
 // const express = require('express');
 // const path = require('path');
 
@@ -22,4 +22,4 @@ app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}...`);
 });
 
-module.exports = app;
+// module.exports = app;
